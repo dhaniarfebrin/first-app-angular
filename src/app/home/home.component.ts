@@ -33,7 +33,7 @@ export class HomeComponent {
     name: 'Test Home',
     city: 'Test city',
     state: 'ST',
-    photo: `${this.baseUrl}/example-house.jpg`,
+    photo: `https://img.staticmb.com/mbcontent/images/uploads/2022/12/Most-Beautiful-House-in-the-World.jpg`,
     availableUnits: 99,
     wifi: true,
     laundry: false,
