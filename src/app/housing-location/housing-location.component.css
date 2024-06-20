@@ -15,6 +15,7 @@
 }
 .listing-location {
   padding: 10px 20px 20px 20px;
+  font-weight: 500;
 }
 .listing-location::before {
   content: url("/assets/location-pin.svg") / "";
