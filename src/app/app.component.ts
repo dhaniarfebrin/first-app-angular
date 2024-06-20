@@ -6,17 +6,7 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [HomeComponent],
-  template: `
-      <main>
-        <header>
-            <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="32" height="32">
-            <h2>{{title}}</h2>
-        </header>
-        <section class="content">
-          <app-home></app-home>
-        </section>
-      </main>
-    `,
+  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
