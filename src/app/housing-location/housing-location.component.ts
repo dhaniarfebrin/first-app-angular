@@ -10,5 +10,12 @@ import { Housinglocation } from '../housinglocation';
   styleUrl: './housing-location.component.css'
 })
 export class HousingLocationComponent {
-  @Input() housingLocation!: Housinglocation
+  /**
+   * Represents a housing location that can be displayed.
+   *
+   * @property {Housinglocation} housingLocation - The housing location to display.
+   *                                               This property is optional and
+   *                                               will default to an empty object.
+   */
+  @Input() housingLocation!: Housinglocation;
 }

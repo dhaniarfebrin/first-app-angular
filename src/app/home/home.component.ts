@@ -15,6 +15,11 @@ import { Housinglocation } from '../housinglocation';
       </form>
     </section>
     <section class="results">
+      <!-- Component that displays a housing location -->
+      <!-- The housing location data is passed in as a property -->
+      <!-- of the housingLocation property -->
+      <!-- housingLocation: This is the housing location data that will be
+      displayed in the housing-location component -->
       <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
     </section>
     `,
